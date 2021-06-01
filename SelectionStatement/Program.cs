@@ -27,6 +27,28 @@ namespace SelectionStatement
             //{
             //    Console.WriteLine("Nevermind");
             //}
+            //switch/Case exercise
+            string subject = "C#";
+            Console.WriteLine("Choose a subject");
+            String userSubject = Console.ReadLine();
+
+            switch (userSubject)
+            {
+                case "C#":
+                    Console.WriteLine("your in the right class.");
+                    break;
+                case "Java":
+                    Console.WriteLine("C# is better than Java.");
+                    break;
+                default:
+                    Console.WriteLine("hummm I remember my first beer.");
+                    break;
+
+
+
+
+
+            }
 
 
         }
